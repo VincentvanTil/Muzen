@@ -1,0 +1,40 @@
+[ N 2018-09-11 10:41:37.1953 6376/T1 age/Wat/WatchdogMain.cpp:1267 ]: Starting Passenger watchdog...
+[ N 2018-09-11 10:41:37.2068 6379/T1 age/Cor/CoreMain.cpp:1165 ]: Starting Passenger core...
+[ N 2018-09-11 10:41:37.2070 6379/T1 age/Cor/CoreMain.cpp:249 ]: Passenger core running in multi-application mode.
+[ N 2018-09-11 10:41:37.2133 6379/T1 age/Cor/CoreMain.cpp:905 ]: Passenger core online, PID 6379
+2018/09/11 10:41:39 [error] 6392#0: *4 directory index of "/var/www/vhosts/tf-testsite.nl/webshop.tf-testsite.nl/public/" is forbidden, client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ N 2018-09-11 10:41:39.4692 6379/T5 age/Cor/SecurityUpdateChecker.h:374 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-09-11 10:42:35.4990 6379/T7 age/Cor/CoreMain.cpp:589 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-09-11 10:42:35.4990 6379/T1 age/Cor/CoreMain.cpp:1080 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-09-11 10:42:35.4992 6379/Tf Ser/Server.h:886 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-09-11 10:42:35.4992 6379/Tf Ser/Server.h:531 ]: [ApiServer] Shutdown finished
+[ N 2018-09-11 10:42:35.4992 6379/T7 Ser/Server.h:886 ]: [ServerThr.1] Freed 128 spare client objects
+[ N 2018-09-11 10:42:35.4992 6379/T7 Ser/Server.h:531 ]: [ServerThr.1] Shutdown finished
+[ N 2018-09-11 10:42:35.4995 6379/Td Ser/Server.h:886 ]: [ServerThr.4] Freed 128 spare client objects
+[ N 2018-09-11 10:42:35.4996 6379/Td Ser/Server.h:531 ]: [ServerThr.4] Shutdown finished
+[ N 2018-09-11 10:42:35.4997 6379/Tb Ser/Server.h:886 ]: [ServerThr.3] Freed 128 spare client objects
+[ N 2018-09-11 10:42:35.4997 6379/Tb Ser/Server.h:531 ]: [ServerThr.3] Shutdown finished
+[ N 2018-09-11 10:42:35.4998 6379/T9 Ser/Server.h:886 ]: [ServerThr.2] Freed 128 spare client objects
+[ N 2018-09-11 10:42:35.4998 6379/T9 Ser/Server.h:531 ]: [ServerThr.2] Shutdown finished
+[ N 2018-09-11 10:42:35.5725 6379/T1 age/Cor/CoreMain.cpp:1150 ]: Passenger core shutdown finished
+[ N 2018-09-11 10:42:37.0835 6545/T1 age/Wat/WatchdogMain.cpp:1267 ]: Starting Passenger watchdog...
+[ N 2018-09-11 10:42:37.0958 6548/T1 age/Cor/CoreMain.cpp:1165 ]: Starting Passenger core...
+[ N 2018-09-11 10:42:37.0960 6548/T1 age/Cor/CoreMain.cpp:249 ]: Passenger core running in multi-application mode.
+[ N 2018-09-11 10:42:37.1006 6548/T1 age/Cor/CoreMain.cpp:905 ]: Passenger core online, PID 6548
+2018/09/11 10:42:39 [error] 6559#0: *4 directory index of "/var/www/vhosts/tf-testsite.nl/webshop.tf-testsite.nl/public/" is forbidden, client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ N 2018-09-11 10:42:39.3314 6548/T5 age/Cor/SecurityUpdateChecker.h:374 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-09-11 10:44:33.3201 6548/T7 age/Cor/CoreMain.cpp:589 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-09-11 10:44:33.3202 6548/T1 age/Cor/CoreMain.cpp:1080 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-09-11 10:44:33.3204 6548/T7 Ser/Server.h:886 ]: [ServerThr.1] Freed 128 spare client objects
+[ N 2018-09-11 10:44:33.3205 6548/T7 Ser/Server.h:531 ]: [ServerThr.1] Shutdown finished
+[ N 2018-09-11 10:44:33.3206 6548/Td Ser/Server.h:886 ]: [ServerThr.4] Freed 128 spare client objects
+[ N 2018-09-11 10:44:33.3206 6548/Td Ser/Server.h:531 ]: [ServerThr.4] Shutdown finished
+[ N 2018-09-11 10:44:33.3207 6548/T9 Ser/Server.h:886 ]: [ServerThr.2] Freed 128 spare client objects
+[ N 2018-09-11 10:44:33.3208 6548/T9 Ser/Server.h:531 ]: [ServerThr.2] Shutdown finished
+[ N 2018-09-11 10:44:33.3208 6548/Tb Ser/Server.h:886 ]: [ServerThr.3] Freed 128 spare client objects
+[ N 2018-09-11 10:44:33.3208 6548/Tb Ser/Server.h:531 ]: [ServerThr.3] Shutdown finished
+[ N 2018-09-11 10:44:33.3209 6548/Tf Ser/Server.h:886 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-09-11 10:44:33.3209 6548/Tf Ser/Server.h:531 ]: [ApiServer] Shutdown finished
+[ N 2018-09-11 10:44:33.3841 6548/T1 age/Cor/CoreMain.cpp:1150 ]: Passenger core shutdown finished
